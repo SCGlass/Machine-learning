@@ -127,4 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-data\movie_lens_big
+movie_lens_big

@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 movie_lens_big
 voting_classifier.pkl
+voting_clf_model.pkl

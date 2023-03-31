@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 from sklearn.metrics import classification_report
 
-test_data =  "data\Train_data_disease.csv"
+test_data =  "data\Test_data_disease.csv"
 df_test = pd.read_csv(test_data)
 
 X,y = df_test.drop("cardio", axis = "columns"), df_test["cardio"]
